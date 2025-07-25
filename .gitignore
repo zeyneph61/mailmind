@@ -1,0 +1,18 @@
+# Python
+*.pyc
+__pycache__/
+.venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# Mac/Win
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
