@@ -14,10 +14,10 @@ def summarize_email(text):
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "En fazla 2 cümleyle, tam cümleler halinde olabildiğince kısa ve anlamlı şekilde özetle."},
+            {"role": "system", "content": "En fazla 2 cümleyle 1 cümle de olur, kısa ,anlamlı,resmi şekilde özetle. 3.kişi kullan."},
             {"role": "user", "content": text}
         ],
-        max_tokens=80,
+        max_tokens=100,
         temperature=0.3
     )
     return response.choices[0].message.content.strip()
