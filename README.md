@@ -53,7 +53,7 @@ Bu proje, akademik e-postalarınızı yapay zekâ ile özetleyen, kategorize ede
 ## Kısa Açıklama
 
 - Uygulama Gmail hesabınızdan son e-postaları çeker.
-- GPT-4o-mini ile e-postalarınızı özetler, kategorize eder ve otomatik yanıt önerir.
+- GPT-4o-mini ile akademik e-postalarınızı özetler, kategorize eder ve otomatik yanıt önerir.
 - Otomatik yanıtlar kullanıcı tarafından değiştirilebilir ve göndermek için tek tık yeterlidir.
 - Proje tamamen lokal çalışır, herhangi bir bulut sunucusu gerekmez.
 
