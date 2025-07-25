@@ -12,8 +12,15 @@ Bu proje, akademik e-postalarınızı yapay zekâ ile özetleyen, kategorize ede
 
 - **E-Posta:** mailmind.test01@gmail.com
 - **Şifre:** juqflcdoeddarina
-- 
----
+  
+## OpenAI API Key Kurulumu
+
+Projeyi çalıştırmak için ana dizine bir `.env` dosyası ekleyip içine aşağıdaki satırı yazmalısınız:
+
+OPENAI_API_KEY=buraya öğrenci proje dosyasında -drive- verdiğim keyi yazın.
+
+Yoksa backend çalışmaz!
+
 
 ## Kurulum & Çalıştırma
 
