@@ -89,6 +89,10 @@ def load_json():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 845e371 (Dosya adı değiştirildi ve güncellemeler yapıldı)
 @app.route('/eposta-analiz', methods=['POST'])
 def eposta_analiz():
     data = request.get_json()
