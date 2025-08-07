@@ -89,20 +89,6 @@ def load_json():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/api/analyze-emails", methods=["POST"])
-def analyze_emails():
-    data = request.json.get("emails", [])
-    results = []
-    for i, row in enumerate(data):
-        konu = row.get("konu", "") or row.get("subject", "")
-        icerik = row.get("icerik", "") or row.get("body", "")
-        if not icerik:
-            continue
-        result = process_single_email(konu, icerik)
-        results.append({"index": i, "konu": konu, "icerik": icerik, **result})
-    return jsonify({"results": results})
-
-
 @app.route('/eposta-analiz', methods=['POST'])
 def eposta_analiz():
     data = request.get_json()
